@@ -1,0 +1,131 @@
+.bg-navbar {
+  background-color: rgba(53, 58, 64, 255);
+}
+.navbar-collapse {
+  flex-grow: 0.5 !important;
+}
+
+.tittle-logo {
+  margin-top: 5px;
+}
+
+.titulo-nav {
+  color: rgba(130, 138, 143, 255) !important;
+}
+
+.contenedor-conf {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img//hawaii.jpg);
+  display: flex;
+  justify-content: end;
+  height: 35rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.contenedor-texto-conf {
+  width: 40%;
+  padding: 3%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titulo-conf {
+  text-align: end;
+  color: white;
+}
+
+.parrrafo-conf {
+  text-align: end;
+  color: white;
+}
+
+.div-conf {
+  display: flex;
+  justify-content: end;
+}
+
+.boton-quiero {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 7px;
+  background: none;
+  color: white;
+  border: 7px solid white;
+}
+
+.boton-comprar {
+  background-color: rgba(43, 167, 70, 255);
+  color: white;
+  border-radius: 7px;
+  border: none;
+}
+.primer-texto-oradores {
+  text-align: center;
+  font-size: small;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.texto-oradores {
+  text-align: center;
+}
+
+.contenedor-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.botones-oradores {
+  display: flex;
+}
+
+.boton-javascript {
+  border-radius: 5px;
+  background-color: orange;
+  border: none;
+  font-weight: 600;
+  height: fit-content;
+  margin-right: 5px;
+}
+
+.boton-react {
+  border-radius: 5px;
+  background-color: #239db0;
+  color: white;
+  border: none;
+  font-weight: 600;
+  height: fit-content;
+}
+
+.boton-negocios {
+  border-radius: 5px;
+  background-color: grey;
+  color: white;
+  border: none;
+  font-weight: 600;
+  height: fit-content;
+  margin-right: 5px;
+}
+
+.boton-startups {
+  border-radius: 5px;
+  background-color: rgba(208, 59, 74, 255);
+  color: white;
+  border: none;
+  font-weight: 600;
+  height: fit-content;
+}
+
+.div-texto-card {
+  margin: 1rem;
+}
+
