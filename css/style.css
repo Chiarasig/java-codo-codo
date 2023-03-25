@@ -76,6 +76,7 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -86,6 +87,7 @@
 
 .botones-oradores {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .boton-javascript {
@@ -128,4 +130,34 @@
 .div-texto-card {
   margin: 1rem;
 }
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .card {
+    width: 45%;
+  }
+  .contenedor-cards {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 55%;
+  }
+}
+
 
