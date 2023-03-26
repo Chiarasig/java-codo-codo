@@ -131,6 +131,38 @@
   margin: 1rem;
 }
 
+.contenedor-bs-octubre{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.contenedor-bs-octubre-texto{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: flex-start;
+  padding: 1rem;
+  color: white;
+  background-color: rgba(53, 58, 64, 255);
+}
+
+.honolulu{
+  width: 50%;
+}
+
+.boton-octubre{
+  width: fit-content;
+  background: none;
+  border-radius: 7px;
+  border: 1px solid #dfe1d0;
+  color: #dfe1d0;
+}
+
+.texto-bs-octubre{
+  color: #dfe1d0;
+  font-size: small;
+}
 @media screen and (max-width: 1000px) {
   .card {
     width: 25%;
@@ -143,6 +175,19 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .contenedor-bs-octubre{
+    flex-direction: column;
+  }
+  .contenedor-bs-octubre-texto{
+    width: 100%;
+  }
+  
+  .honolulu{
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .card {
     width: 45%;
@@ -152,12 +197,18 @@
     flex-direction: column;
     align-content: center;
   }
+  .contenedor-texto-conf {
+  width: 60%;
+}
 }
 
 @media screen and (max-width: 500px) {
   .card {
     width: 55%;
   }
+  .contenedor-texto-conf {
+  width: 80%;
+}
 }
 
 
