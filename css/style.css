@@ -163,6 +163,32 @@
   color: #dfe1d0;
   font-size: small;
 }
+
+.parrafo-oradores{
+  text-align: center;
+}
+
+.sub-discontinuo{
+  text-decoration: underline dotted;
+}
+
+.formulario{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#conviertete{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 @media screen and (max-width: 1000px) {
   .card {
     width: 25%;
