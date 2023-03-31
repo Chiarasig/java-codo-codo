@@ -1,3 +1,8 @@
+.navbar-nav{
+  display: flex;
+    align-items: flex-end;
+}
+
 .bg-navbar {
   background-color: rgba(53, 58, 64, 255);
 }
@@ -83,6 +88,12 @@
   display: flex;
   flex-direction: column;
   width: 20%;
+}
+
+.card:hover {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }
 
 .botones-oradores {
@@ -238,6 +249,24 @@ font-size:large
   background: rgba(150,201,62,255);
   height: 2rem;
   color: white;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  min-height: 3.5rem;
+  flex-wrap: wrap;
+  background: linear-gradient(to right,#1d3947, #1e5170);
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  gap: 1rem;
+}
+
+.link-footer{
+  color: white;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1000px) {
