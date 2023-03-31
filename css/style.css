@@ -131,13 +131,13 @@
   margin: 1rem;
 }
 
-.contenedor-bs-octubre{
+.contenedor-bs-octubre {
   display: flex;
   flex-wrap: wrap;
   margin-top: 2rem;
 }
 
-.contenedor-bs-octubre-texto{
+.contenedor-bs-octubre-texto {
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -147,11 +147,11 @@
   background-color: rgba(53, 58, 64, 255);
 }
 
-.honolulu{
+.honolulu {
   width: 50%;
 }
 
-.boton-octubre{
+.boton-octubre {
   width: fit-content;
   background: none;
   border-radius: 7px;
@@ -159,35 +159,86 @@
   color: #dfe1d0;
 }
 
-.texto-bs-octubre{
+.texto-bs-octubre {
   color: #dfe1d0;
   font-size: small;
 }
 
-.parrafo-oradores{
+.parrafo-oradores {
   text-align: center;
 }
 
-.sub-discontinuo{
+.sub-discontinuo {
   text-decoration: underline dotted;
 }
 
-.formulario{
-  width: 60%;
+.formulario {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+#conviertete {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#conviertete{
+.container-label-input {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
+.label {
+  width: 48%;
+}
 
+.input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.textarea{
+  width: 100%;
+}
+
+.textareainput{
+  border-radius: 5px;
+  border: 1px solid grey;
+  width: 100%;
+  height: 140px;
+}
+
+.input::placeholder{
+padding: 5px;
+}
+
+.textareainput::placeholder{
+padding: 5px;
+font-size:large
+}
+
+.texto-conviertete{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  color: grey;
+}
+
+.button-form{
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background: rgba(150,201,62,255);
+  height: 2rem;
+  color: white;
+}
 
 @media screen and (max-width: 1000px) {
   .card {
@@ -202,14 +253,14 @@
 }
 
 @media screen and (max-width: 768px) {
-  .contenedor-bs-octubre{
+  .contenedor-bs-octubre {
     flex-direction: column;
   }
-  .contenedor-bs-octubre-texto{
+  .contenedor-bs-octubre-texto {
     width: 100%;
   }
-  
-  .honolulu{
+
+  .honolulu {
     width: 100%;
   }
 }
@@ -224,8 +275,8 @@
     align-content: center;
   }
   .contenedor-texto-conf {
-  width: 60%;
-}
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -233,8 +284,6 @@
     width: 55%;
   }
   .contenedor-texto-conf {
-  width: 80%;
+    width: 80%;
+  }
 }
-}
-
-
